@@ -25,7 +25,7 @@
                 <li><a href="#">lavarachat</a></li>
             </ul>
             </li>
-            <li><a href="#contact">Contact</a></li>
+        <li class="{{ set_active_root('contact_view')}}"><a href="{{ route('contact_view')}}">Contact</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">Login</a></li>
